@@ -26,3 +26,19 @@ header section article h1 {
   font-size: calc(1rem + 10px);
   color: var(--c_blue500);
 }
+
+/* Comienzo del aside*/
+aside {
+}
+
+aside section {
+}
+
+aside section article {
+}
+
+aside section article ol {
+}
+
+aside section article ol li {
+}
