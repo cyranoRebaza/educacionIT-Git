@@ -1,0 +1,40 @@
+---- clase 1 ----
+comandos basicos navegar carpetas y archivo:
+
+cd      > Change Directory : Cambiar  de directorios
+ll / ls > List             : Listar el contenido de la carpeta
+pwd     >                  : Conocer la ruta absoluta donde  estoy  parado
+clear / crl + l> clear     : Limpiar la pantalla
+
+----------
+mkdir [ nombre del archivo ]    > Make Directory : Crear Carpetas
+mkdir -p[ nombre del archivo ]  > Make Directory : Crear Carpetas con un sistema de archivos interno
+
+----------
+OJO!!! COMANDO PELIGROSOS
+rm [ nombre del archivo] > Remove : Eliminar archivos
+rm -rfd [ destino ] > Remove : Eliminar carpetas y contenido con el flag (r:recursivo - f:force - d:Directory)
+
+----------
+cp [ archivo a copiar] [nuevo nombre] > Copy : copiar archivo (no me funciono averiguar!!!)
+mv [ archivo a mover] [destino / ] > Mover un archivo a una carpeta
+mv [ archivo a renombrar] [ nuevo nombre ] > Renombrar archivos
+
+----------
+previsualizion:
+cat [nombre del archivo] > previsualizion del archivo en la linea de comandos
+head[  nombre del archivo] > previsualizion de los primeros 15 lineas
+less[nombre del archivo] > previsualizion de las ultimasd 15 lineas
+
+
+---- clase 2 ----
+
+git init > inicializa una carpeta en un repositorio local
+
+git add [nombre del archivo] > Agregar a GIT de : fuera del flujo de trabajo al area Stage un archivo
+git add .                    > Agregar a GIT de : fuera del flujo de trabajo al area Stage TODO los archivos
+
+git status                   > conocer el estado de los archivos dentro del repositorio              
+
+
+ 
